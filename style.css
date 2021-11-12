@@ -119,7 +119,6 @@ input[type="checkbox"] + span,
 input[type="checkbox"] + span::before
 {
     display: inline-block;
-    vertical-align: middle;
 }
  
 label *
@@ -148,14 +147,6 @@ input[type="checkbox"] + span::before
     line-height: 14px;
     text-align: center;    
 }
- 
-input[type="checkbox"] + span::before
-{
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-}
-
  
 input[type="checkbox"]:checked + span::before
 {
